@@ -1,0 +1,81 @@
+@font-face {
+    font-family: RobotoBold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+.menu-page-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.menu-topbar {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.menu-server {
+    font-size: 1.2em;
+    font-family: RobotoBold;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex: 1;
+}
+.menu-user {
+    font-size: 1.2em;
+    font-family: RobotoBold;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex: 1;
+}
+.menu-connection {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex: 1;
+}
+.menu-blocks {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-block-item {
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    width: 20%;
+    flex: 1;
+    height: 250px;
+    border: 1px solid #ced4da;
+}
+.mainButton {
+    background-color: #008CBA;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+.block-title {
+    font-size: 1.2em;
+    font-family: RobotoBold;
+
+}
