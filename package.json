@@ -26,6 +26,6 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^8.0.0",
     "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.3.12"
   }
 }
